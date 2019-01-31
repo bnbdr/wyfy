@@ -10,7 +10,7 @@ setup(
     description="print wifi passwords (windows only)",
     url='https://github.com/{}/wyfy'.format(author),
     license='MIT',
-    long_description=open(path.join(abspath(path.dirname(__file__)), 'README.md'), encoding='utf-8').read(),
+    long_description=open(path.join(path.abspath(path.dirname(__file__)), 'README.md')).read(),
     long_description_content_type='text/markdown',
     keywords='wifi',
     packages=['wyfy'],
