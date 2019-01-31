@@ -13,4 +13,4 @@ $ pip install wyfy
 $ wyfy [*| SSID substring]
 ```
 
-without arguments will print the connected networks SSID and password
+Running it without arguments shows the currently connected network(s) SSID and password
